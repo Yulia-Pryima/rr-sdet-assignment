@@ -1,14 +1,5 @@
-# Testing robot navigation web application for Rapyuta Robotics
+## Automated GUI testing Robot navigation Web application for Rapyuta Robotics.
 
-Purpose and goal:
-- Create test cases to test common web app usage, detect errors and make logs 
-
-Steps:
-- Log in to app
-- Edit the map:
-    Add nodes
-    Delete nodes
-    Add edges
-- Log out
-- Verify app works as expected
-- Output console logs.
+### Implementation of functional test suite with following requirements:
+- The suite is fully automated and provide both console and HTML reports;
+- The suite reports test results with attachments and the defects.

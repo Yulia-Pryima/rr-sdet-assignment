@@ -1,61 +1,60 @@
-Step-by-step test example description.
+Step-by-step partial test suite description.
 
 1. Log in to the web app:
     - Launch url under test
 
     1.1. Log in with empty username/password:
         - Click Login button
+        - Verify Correct error message appeared
 
-    1.2. Log in with empty username, valid password:
-        - Input valid password
-        - Click Login button
-
-    1.3. Log in with valid username, empty password:
-        - Input valid username
-        - Click Login button
-
-    1.4. Log in with invalid credentials:
-        - Input invalid username
-        - Input invalid password
-        - Click Login button
-
-    1.5. Log in with valid username, invalid password:
-        - Input valid username
-        - Input invalid password
-        - Click Login button
-
-    1.6. Log in with invalid username, valid password:
-        - Input invalid username
-        - Input valid password
-        - Click Login button
-
-    1.7 Log in with valid credentials:
+    1.2 Log in with valid credentials:
         - Input valid username
         - Input valid password
         - Click Login button
+        - Verify User Logged in
 
 2. Edit the map:
     - Select Settings
+    - Verify user is in correct page
     - Select Maps
+    - Verify user is in correct page
     - Select "tatsumi" in Listed maps
+    - Verify user is in correct page
     - Select "Edit map"
+    - Verify user is in "Edit map" mode
 
     2.1. Add nodes:
-
+        - Click "Node" from left menu
+        - Click inside the Map to add a new Node
+        - Verify Node was added
+        - Add three more Nodes
 
     2.2. Delete nodes:
-
+        - Select a Node
+        - Delete the Node by clicking "delete" keybutton from keyboard
+        - Verify the Node was deleted
 
     2.3. Add edges:
+        - Click "Edge" from left menu
+        - Create an Edge by clicking on nodes
+        - Verify the Edge was created
 
+    2.4. Delete edges:
+        - Click on Edge
+        - Delete the Edge by clicking "delete" keybutton from keyboard
+        - Verify the Edge was deleted
 
-#   2.4. Delete edges
-#   2.5. Add region
-#   2.6. Edit region: Move or Change coordinates
+    2.5. Add Region:
+        - Click "Region" from left menu
+        - Create a Region by clicking on map
+        - Verify Region Name was auto-created
+
+    2.6. Edit region: Move or Change coordinates
 
 3. Log out:
     - Select User account icon
     - Click "Logout"
+    - Verify User was logged out
 
-# To report test results with attachments and bugs (include photos and .txt logs).
 # POM
+# Report issues

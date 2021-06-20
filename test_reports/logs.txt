@@ -1,0 +1,26 @@
+##teamcity[enteredTheMatrix timestamp='2021-06-21T01:26:09.958']
+Launching unittests with arguments python -m unittest /Users/yuliapryima/PycharmProjects/rr-sdet-assignment/tests/main.py in /Users/yuliapryima/PycharmProjects/rr-sdet-assignment/tests
+
+##teamcity[testCount timestamp='2021-06-21T01:26:10.238' count='1']
+##teamcity[testSuiteStarted timestamp='2021-06-21T01:26:10.240' locationHint='python</Users/yuliapryima/PycharmProjects/rr-sdet-assignment/tests>://main' name='main' nodeId='1' parentNodeId='0']
+##teamcity[testSuiteStarted timestamp='2021-06-21T01:26:10.240' locationHint='python</Users/yuliapryima/PycharmProjects/rr-sdet-assignment/tests>://main.MyTestCase' name='MyTestCase' nodeId='2' parentNodeId='1']
+##teamcity[testStarted timestamp='2021-06-21T01:26:10.240' captureStandardOutput='true' locationHint='python</Users/yuliapryima/PycharmProjects/rr-sdet-assignment/tests>://main.MyTestCase.test_map' name='test_map' nodeId='3' parentNodeId='2']
+##teamcity[testStdOut timestamp='2021-06-21T01:26:16.381' flowId='main.MyTestCase.test_map' locationHint='python</Users/yuliapryima/PycharmProjects/rr-sdet-assignment/tests>://main.MyTestCase.test_map' name='test_map' nodeId='3' out='User logged in.|n' parentNodeId='2']
+##teamcity[testStdOut timestamp='2021-06-21T01:26:24.972' flowId='main.MyTestCase.test_map' locationHint='python</Users/yuliapryima/PycharmProjects/rr-sdet-assignment/tests>://main.MyTestCase.test_map' name='test_map' nodeId='3' out='Node1 added.|n' parentNodeId='2']
+##teamcity[testStdOut timestamp='2021-06-21T01:26:24.984' flowId='main.MyTestCase.test_map' locationHint='python</Users/yuliapryima/PycharmProjects/rr-sdet-assignment/tests>://main.MyTestCase.test_map' name='test_map' nodeId='3' out='Node2 added.|n' parentNodeId='2']
+##teamcity[testStdOut timestamp='2021-06-21T01:26:26.993' flowId='main.MyTestCase.test_map' locationHint='python</Users/yuliapryima/PycharmProjects/rr-sdet-assignment/tests>://main.MyTestCase.test_map' name='test_map' nodeId='3' out='Node3 added.|n' parentNodeId='2']
+##teamcity[testStdOut timestamp='2021-06-21T01:26:30.188' flowId='main.MyTestCase.test_map' locationHint='python</Users/yuliapryima/PycharmProjects/rr-sdet-assignment/tests>://main.MyTestCase.test_map' name='test_map' nodeId='3' out='Node4 added.|n' parentNodeId='2']
+##teamcity[testStdOut timestamp='2021-06-21T01:26:33.623' flowId='main.MyTestCase.test_map' locationHint='python</Users/yuliapryima/PycharmProjects/rr-sdet-assignment/tests>://main.MyTestCase.test_map' name='test_map' nodeId='3' out='Node4 deleted.|n' parentNodeId='2']
+##teamcity[testStdOut timestamp='2021-06-21T01:26:42.020' flowId='main.MyTestCase.test_map' locationHint='python</Users/yuliapryima/PycharmProjects/rr-sdet-assignment/tests>://main.MyTestCase.test_map' name='test_map' nodeId='3' out='Edge added.|n' parentNodeId='2']
+##teamcity[testStdOut timestamp='2021-06-21T01:26:46.917' flowId='main.MyTestCase.test_map' locationHint='python</Users/yuliapryima/PycharmProjects/rr-sdet-assignment/tests>://main.MyTestCase.test_map' name='test_map' nodeId='3' out='Edge deleted.|n' parentNodeId='2']
+##teamcity[testStdOut timestamp='2021-06-21T01:26:49.644' flowId='main.MyTestCase.test_map' locationHint='python</Users/yuliapryima/PycharmProjects/rr-sdet-assignment/tests>://main.MyTestCase.test_map' name='test_map' nodeId='3' out='Region added.|n' parentNodeId='2']
+##teamcity[testStdOut timestamp='2021-06-21T01:26:54.415' flowId='main.MyTestCase.test_map' locationHint='python</Users/yuliapryima/PycharmProjects/rr-sdet-assignment/tests>://main.MyTestCase.test_map' name='test_map' nodeId='3' out='|'region_5627547229740131|' != |'|'|n- region_5627547229740131|n+ |n' parentNodeId='2']
+##teamcity[testStdOut timestamp='2021-06-21T01:26:54.415' flowId='main.MyTestCase.test_map' locationHint='python</Users/yuliapryima/PycharmProjects/rr-sdet-assignment/tests>://main.MyTestCase.test_map' name='test_map' nodeId='3' out='|n' parentNodeId='2']
+##teamcity[testStdOut timestamp='2021-06-21T01:26:56.804' flowId='main.MyTestCase.test_map' locationHint='python</Users/yuliapryima/PycharmProjects/rr-sdet-assignment/tests>://main.MyTestCase.test_map' name='test_map' nodeId='3' out='User logged out.|n' parentNodeId='2']
+##teamcity[testStdOut timestamp='2021-06-21T01:26:56.815' flowId='main.MyTestCase.test_map' locationHint='python</Users/yuliapryima/PycharmProjects/rr-sdet-assignment/tests>://main.MyTestCase.test_map' name='test_map' nodeId='3' out='autobootstrap = autobootstrap.|n' parentNodeId='2']
+
+
+##teamcity[testFinished timestamp='2021-06-21T01:26:56.930' duration='46691' locationHint='python</Users/yuliapryima/PycharmProjects/rr-sdet-assignment/tests>://main.MyTestCase.test_map' name='test_map' nodeId='3' parentNodeId='2']
+Ran 1 test in 46.691s
+
+OK
