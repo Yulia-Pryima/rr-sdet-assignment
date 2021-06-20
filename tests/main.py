@@ -14,7 +14,7 @@ class MyTestCase(unittest.TestCase):
 
     def setUp(self):
         self.driver = webdriver.Chrome(
-            executable_path='/Users/yuliapryima/PycharmProjects/Rapyuta Robotics/browser_drivers/chromedriver')
+            executable_path='/Users/yuliapryima/PycharmProjects/rr-sdet-assignment/browser_drivers/chromedriver')
         self.driver.get('http://inst-lvexrslscwtpbksiisccxojt-tdnjyu.ep-r.io/')
         self.wait = WebDriverWait(self.driver, 25)
         self.driver.maximize_window()
