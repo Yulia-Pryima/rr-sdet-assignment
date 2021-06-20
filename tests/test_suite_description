@@ -1,0 +1,61 @@
+Step-by-step test example description.
+
+1. Log in to the web app:
+    - Launch url under test
+
+    1.1. Log in with empty username/password:
+        - Click Login button
+
+    1.2. Log in with empty username, valid password:
+        - Input valid password
+        - Click Login button
+
+    1.3. Log in with valid username, empty password:
+        - Input valid username
+        - Click Login button
+
+    1.4. Log in with invalid credentials:
+        - Input invalid username
+        - Input invalid password
+        - Click Login button
+
+    1.5. Log in with valid username, invalid password:
+        - Input valid username
+        - Input invalid password
+        - Click Login button
+
+    1.6. Log in with invalid username, valid password:
+        - Input invalid username
+        - Input valid password
+        - Click Login button
+
+    1.7 Log in with valid credentials:
+        - Input valid username
+        - Input valid password
+        - Click Login button
+
+2. Edit the map:
+    - Select Settings
+    - Select Maps
+    - Select "tatsumi" in Listed maps
+    - Select "Edit map"
+
+    2.1. Add nodes:
+
+
+    2.2. Delete nodes:
+
+
+    2.3. Add edges:
+
+
+#   2.4. Delete edges
+#   2.5. Add region
+#   2.6. Edit region: Move or Change coordinates
+
+3. Log out:
+    - Select User account icon
+    - Click "Logout"
+
+# To report test results with attachments and bugs (include photos and .txt logs).
+# POM
