@@ -1,33 +1,20 @@
-## Automated GUI testing Robot navigation Web application
+# Release Readiness Automation Assignment
 
-### Implementation of functional test suite with following requirements:
-- The suite is fully automated and provide both console and HTML reports;
-- The suite reports test results with attachments and the defects.
+This repository contains a Python-based automation assignment focused on validating system behavior and surfacing release readiness risks through automated checks.
 
-# Test Automation Assignment – SDET
+## What problem this addresses
+In fast-moving product environments, release decisions often rely on fragmented signals from testing, issue tracking, and execution status. This project demonstrates how automation can be used to make those signals more visible and reliable.
 
-## Overview
-This repository contains a test automation assignment implemented as part of my work and learning as a QA / delivery-focused technical professional.
+## Why it matters
+The goal is not testing for testing’s sake, but supporting delivery confidence:
+- Reduce manual verification effort
+- Surface potential risks earlier
+- Support clearer go/no-go release decisions
 
-The goal of this project is to demonstrate:
-- Structured test design
-- Clear separation of concerns
-- Practical automation focused on reliability and maintainability
+## What this demonstrates
+- Translating technical requirements into automated checks
+- Structuring automation to support delivery and release readiness
+- Thinking beyond test execution toward operational impact
 
-## What This Project Demonstrates
-- Translating functional requirements into automated test scenarios
-- Designing test cases with business and user impact in mind
-- Writing readable, maintainable automation code
-- Basic reporting and validation logic
-
-## Tech Stack
-- Language: Python
-- Tools: pytest (or relevant framework), basic scripting utilities
-- Focus: functional validation and test logic (not production application code)
-
-## Context
-My background is in customer-facing delivery, QA leadership, and cross-functional coordination.
-This repository reflects hands-on technical work that supports delivery quality, risk reduction, and stable releases.
-
-It is not intended as a full software product, but as an example of practical automation and technical problem-solving.
-
+## Tech
+Python · Automation · Structured validation
